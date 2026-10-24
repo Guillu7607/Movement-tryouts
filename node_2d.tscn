@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://d1abu0ou7lffi"]
+
+[ext_resource type="Texture2D" uid="uid://dtbretey8mpqr" path="res://New Piskel.png" id="1_0e48y"]
+[ext_resource type="Script" uid="uid://ddyrwj17qtbs1" path="res://scripts/signals.gd" id="1_epypp"]
+[ext_resource type="Script" uid="uid://hj4xy05odkyk" path="res://scripts/move.gd" id="2_epypp"]
+
+[node name="Node2D" type="Node2D" unique_id=2043623325]
+script = ExtResource("1_epypp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=274744236]
+position = Vector2(579, 326)
+texture = ExtResource("1_0e48y")
+script = ExtResource("2_epypp")
+
+[node name="Timer" type="Timer" parent="Sprite2D" unique_id=1815587419]
+autostart = true
+
+[node name="Button" type="Button" parent="." unique_id=104352187]
+offset_left = 659.0
+offset_top = 402.0
+offset_right = 823.0
+offset_bottom = 498.0
+text = "Toggle Motion"
+
+[connection signal="timeout" from="Sprite2D/Timer" to="Sprite2D" method="_on_timer_timeout"]
+[connection signal="pressed" from="Button" to="Sprite2D" method="_on_button_pressed"]

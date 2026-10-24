@@ -1,18 +1,26 @@
 extends Sprite2D
 var ang = PI
-var vel = 100
+var sp = 100
 
 func _process(delta):
-	var pos =0
-	#rotation += ang*delta
-	if (Input.is_action_pressed("ui_left")):
-		pos =-1
-	if (Input.is_action_pressed("ui_right")):
-		pos =1
-	rotation += ang * pos * delta
-	var vel_up = Vector2.ZERO
-	if Input.is_action_pressed("ui_up"):
-		vel_up = Vector2.UP.rotated(rotation) * vel
-	#var rot  = Vector2.UP.rotated(rotation)*vel
+	rotation += ang*delta
 	
-	position += vel_up*delta
+	var vel  = Vector2.UP.rotated(rotation)*sp
+	
+	position += vel*delta
+
+
+func _on_button_pressed() -> void:
+	set_process(not is_processing())
+
+
+#func _ready():
+#	var timer = get_node("RoundTimer")
+#	timer.timeout.connect(_on_timer_timeout)
+func _on_timer_timeout():
+	visible = not visible
+
+signal interact_requested
+func _unhandled_input(event: InputEvent) -> void:
+	if event.is_action_pressed("interact"):
+		interact_requested.emit()

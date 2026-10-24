@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://crt44bpy4tr5s"]
+
+[ext_resource type="Script" uid="uid://c860xbk4gx0ys" path="res://scripts/Player.gd" id="1_kne1u"]
+[ext_resource type="Texture2D" uid="uid://dtbretey8mpqr" path="res://New Piskel.png" id="2_e80uo"]
+[ext_resource type="Script" uid="uid://hj4xy05odkyk" path="res://scripts/move.gd" id="3_cxr5p"]
+
+[node name="Player" type="Node2D" unique_id=209345557]
+script = ExtResource("1_kne1u")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=224325082]
+position = Vector2(576, 324)
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2098150396]
+position = Vector2(579, 326)
+texture = ExtResource("2_e80uo")
+script = ExtResource("3_cxr5p")

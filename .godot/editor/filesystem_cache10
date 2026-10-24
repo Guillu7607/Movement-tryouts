@@ -1,14 +1,20 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1791799491
+::res://::1792836268
 export_presets.cfg::TextFile::-1::1790709760::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::1939735520893805944::1790332384::1790708636::1::::<><><>0<>0<>4ea3084e4b07152623f958fecfb45e4c<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main_tscn.tscn::PackedScene::6215434947161845536::1791558253::0::1::::<><><>0<>0<><>::uid://djqwnh62drmti::::res://assets/country-platform-back.png<>uid://dnxml24l0ftgv::::res://assets/country-platform-forest.png<>uid://c74mq7np3jmqo::::res://assets/country-platform-tiles-example.png<>uid://dtbretey8mpqr::::res://New Piskel.png<>uid://hj4xy05odkyk::::res://scripts/move.gd
+main_tscn.tscn::PackedScene::6215434947161845536::1792790656::0::1::::<><><>0<>0<><>::uid://djqwnh62drmti::::res://assets/country-platform-back.png<>uid://dnh3by258erh1::::res://scripts/Main.gd<>uid://dnxml24l0ftgv::::res://assets/country-platform-forest.png<>uid://c74mq7np3jmqo::::res://assets/country-platform-tiles-example.png<>uid://crt44bpy4tr5s::::res://Player.tscn<>uid://c860xbk4gx0ys::::res://scripts/Player.gd
 New Piskel.png::CompressedTexture2D::8495954795266536925::1791557614::1791557614::1::::<><><>0<>0<>b21c24412fd7ef10ff8daba9fa4f92b3<>res://.godot/imported/New Piskel.png-4b57200a9b5d4d6f89cce1bdbbdb2eec.ctex::
+node_2d.tscn::PackedScene::8984269754201934494::1792775282::0::1::::<><><>0<>0<><>::uid://dtbretey8mpqr::::res://New Piskel.png<>uid://ddyrwj17qtbs1::::res://scripts/signals.gd<>uid://hj4xy05odkyk::::res://scripts/move.gd
+Player.tscn::PackedScene::6007087544198745594::1792790662::0::1::::<><><>0<>0<><>::uid://c860xbk4gx0ys::::res://scripts/Player.gd<>uid://dtbretey8mpqr::::res://New Piskel.png<>uid://hj4xy05odkyk::::res://scripts/move.gd
 ::res://assets/::1790708637
 Ambient_But_awesome_KLICKAUD.mp3::AudioStreamMP3::2674122278464535945::1790332384::1790708636::1::::<><><>0<>0<>a1d558f70abb5bc14fd8d9dbac9e2aa9<>res://.godot/imported/Ambient_But_awesome_KLICKAUD.mp3-df65db5d4e31419fb47619309e409201.mp3str::
 country-platform-back.png::CompressedTexture2D::7825351093832012950::1790332384::1790708637::1::::<><><>0<>0<>2d1263c154fcc54e2be946cf8fee2153<>res://.godot/imported/country-platform-back.png-6ea887eeee0c7d1f7d8c2eb7cbafacba.ctex::
 country-platform-forest.png::CompressedTexture2D::8119947417826449157::1790332384::1790708637::1::::<><><>0<>0<>092dd595cc7b7198cb2d3c91e48a02dd<>res://.godot/imported/country-platform-forest.png-74c1df2053b9ccbcc4cefe5762937ad7.ctex::
 country-platform-tiles-example.png::CompressedTexture2D::7079510196835626758::1790332384::1790708637::1::::<><><>0<>0<>8403701a8c293e2b280ad127044c839f<>res://.godot/imported/country-platform-tiles-example.png-efd1df377b374a1b2e39d83220931575.ctex::
 country-platform-tileset.png::CompressedTexture2D::5270601605598665273::1790332384::1790708637::1::::<><><>0<>0<>9cbfd0e26f9ac5fbbef91d82c55ba9d6<>res://.godot/imported/country-platform-tileset.png-d9579fcc20bce5728f5246ea62467b49.ctex::
-::res://scripts/::1791565410
-move.gd::GDScript::511704471865220314::1791565410::0::1::::<>Sprite2D<><>0<>0<><>::
+::res://scripts/::1792790656
+Main.gd::GDScript::8087870827920970108::1792790656::0::1::::<>Node2D<><>0<>0<><>::
+move1.gd::GDScript::1379533124461289995::1792790656::0::1::::<>Sprite2D<><>0<>0<><>::
+move.gd::GDScript::511704471865220314::1792790656::0::1::::<>Sprite2D<><>0<>0<><>::
+Player.gd::GDScript::7154627985194071390::1792790656::0::1::::<>Sprite2D<><>0<>0<><>::
+signals.gd::GDScript::7420445638784902170::1792775282::0::1::::<>Node2D<><>0<>0<><>::

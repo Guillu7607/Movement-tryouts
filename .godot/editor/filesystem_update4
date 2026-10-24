@@ -1,1 +1,4 @@
-res://scripts/move1.gd
+res://scripts/Main.gd
+res://scripts/Player.gd
+res://main_tscn.tscn
+res://scripts/move.gd
